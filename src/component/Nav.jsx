@@ -58,7 +58,7 @@ const Nav = () => {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                  <Link to="about" smooth duration={500}>
+                  <Link to="home" smooth duration={500}>
                     {"Home"}
                   </Link>
                 </div>
@@ -130,7 +130,7 @@ const Nav = () => {
             className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
             aria-current="page"
           >
-            <Link to="about" smooth duration={500}>
+            <Link to="home" smooth duration={500}>
               {"Home"}
             </Link>
           </div>
