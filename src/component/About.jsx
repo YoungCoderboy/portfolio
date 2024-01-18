@@ -13,25 +13,25 @@ const About = () => {
           </p>
         </div>
 
+        <p className="text-xl ">
+          Hey there! I'm a third-year Computer Science and Engineering student
+          at Indian Institute of Information Technology Pune, and I'm rocking it
+          with skills in C, C++, Java, and Python, along with a knack for Data
+          Structures and Algorithms. I thrive on coding challenges and am
+          venturing into Android and Web development, managing the robotic club
+          with an amazing team of tech enthusiasts.
+        </p>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          On a lighter note, life outside coding is all about fun for me. I'm a
+          massive anime fan, finding magic in captivating stories and vibrant
+          animation. When not immersed in the anime universe, I dive into gaming
+          adventures, from epic quests to multiplayer battles. And, of course,
+          there's my love affair with Linux – the open-source power is
+          mind-blowing. Let's geek out or discuss the latest tech trends
+          whenever you're up for it!
         </p>
 
         <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
       </div>
     </div>
   );

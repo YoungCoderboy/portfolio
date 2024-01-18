@@ -62,7 +62,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white mr-10">
             {`Hi! I'm Deep Onkar`}{" "}
             <span
               className="txt-rotate"
@@ -72,11 +72,11 @@ const Home = () => {
               <span className="wrap">{text}</span>
             </span>
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perferendis nobis inventore illo veniam, voluptatum accusantium
-            corrupti, placeat nihil minus corporis soluta ex totam eveniet
-            excepturi, doloribus quos? Neque, in ipsam?
+          <p className="text-gray-500 py-4 max-w-md mt-10">
+            Indian Institute of Information Technology Pune 2025 | React JS |
+            Node.JS | Full Stack Web Developer (MERN Stack Developer) | Android
+            Developer | Competitive Programmer | Codeforces Pupil (Max: 1227) |
+            CodeChef 3-Star (Max: 1668)
           </p>
 
           <div>
