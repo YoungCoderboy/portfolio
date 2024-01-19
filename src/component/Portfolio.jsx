@@ -11,26 +11,34 @@ const Portfolio = () => {
       id: 1,
       src: Med,
       link: "https://github.com/YoungCoderboy/med-Dapp",
+      live: "https://github.com/YoungCoderboy/med-Dapp",
+      // live: "https://estore-react-learning.netlify.app/",
     },
     {
       id: 2,
       src: nodejs,
       link: "https://github.com/YoungCoderboy/natour",
+      live: "https://github.com/YoungCoderboy/natour",
+      // live: "https://estore-react-learning.netlify.app/",
     },
     {
       id: 3,
       src: estore,
       link: "https://github.com/YoungCoderboy/estore",
+      live: "https://estore-react-learning.netlify.app/",
     },
     {
       id: 4,
       src: battery,
       link: "https://github.com/YoungCoderboy/Battery",
+      live: "https://github.com/YoungCoderboy/Battery",
+      // live: "https://estore-react-learning.netlify.app/",
     },
     {
       id: 5,
       src: deepai,
       link: "https://github.com/YoungCoderboy/Deep-Helper",
+      live: "https://marketplace.visualstudio.com/items?itemName=DemonSlayer.deep-ai",
     },
   ];
 
@@ -48,7 +56,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link }) => (
+          {portfolios.map(({ id, src, link, live }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <a href={link}>
                 <img
@@ -58,9 +66,12 @@ const Portfolio = () => {
                 />
               </a>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={live}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
-                </button>
+                </a>
                 <a
                   href={link}
                   target="blank"
