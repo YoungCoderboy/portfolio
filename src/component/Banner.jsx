@@ -3,6 +3,7 @@ import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
+import Design from "./Design";
 
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,19 +59,21 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-black  bg-no-repeat bg-center bg-cover"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white mr-10">
-            {`Hi! I'm Deep Onkar`}{" "}
-            <span
+          <h2 className="text-4xl sm:text-6xl font-cur text-white mr-10">
+            {`Hi! I'm Deep Onkar`} <br />
+            {/* <span
               className="txt-rotate"
               dataPeriod="1000"
               data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
-            >
-              <span className="wrap">{text}</span>
-            </span>
+            > */}
+            <div className="mt-10">
+              <span>{text}</span>
+            </div>
+            {/* </span> */}
           </h2>
           <p className="text-gray-500 py-4 max-w-md mt-10">
             Indian Institute of Information Technology Pune 2025 | React JS |
@@ -98,7 +101,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto ml-20 w-2/3 md:w-full "
           />
         </div>
       </div>

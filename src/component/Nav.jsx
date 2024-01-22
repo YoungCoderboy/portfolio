@@ -4,7 +4,7 @@ import { useState } from "react";
 const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-black">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -61,22 +61,42 @@ const Nav = () => {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                  <Link to="home" smooth duration={500}>
+                  <Link
+                    to="home"
+                    className="cursor-pointer"
+                    smooth
+                    duration={500}
+                  >
                     {"Home"}
                   </Link>
                 </div>
                 <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                  <Link to="projects" smooth duration={500}>
+                  <Link
+                    to="projects"
+                    className="cursor-pointer"
+                    smooth
+                    duration={500}
+                  >
                     {"Projects"}
                   </Link>
                 </div>
                 <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                  <Link to="about" smooth duration={500}>
+                  <Link
+                    to="about"
+                    className="cursor-pointer"
+                    smooth
+                    duration={500}
+                  >
                     {"About"}
                   </Link>
                 </div>
                 <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                  <Link to="contact" smooth duration={500}>
+                  <Link
+                    to="contact"
+                    className="cursor-pointer"
+                    smooth
+                    duration={500}
+                  >
                     {"Contact"}
                   </Link>
                 </div>
