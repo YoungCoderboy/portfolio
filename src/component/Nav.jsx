@@ -4,10 +4,10 @@ import { useState } from "react";
 const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-black">
+    <nav className="bg-black bg-opacity-90 font-game sticky top-0">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
-          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
             <button
               onClick={() => setOpen(!open)}
               type="button"
@@ -49,18 +49,18 @@ const Nav = () => {
               </svg>
             </button>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex flex-1 items-center justify-center sm:items-stretch md:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <div className="text-white pr-10 text-2xl">
-                <span className="text-teal-300 text-3xl font-bold pr-0.5 underline">
+              <div className="text-white pr-10 text-4xl">
+                <span className="text-teal-300 text-4xl font-bold pr-0.5 underline">
                   D
                 </span>
                 eep
               </div>
             </div>
-            <div className="hidden sm:ml-6 sm:block">
+            <div className="hidden md:ml-6 md:block">
               <div className="flex space-x-4">
-                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium ml-10">
                   <Link
                     to="home"
                     className="cursor-pointer"
@@ -70,7 +70,7 @@ const Nav = () => {
                     {"Home"}
                   </Link>
                 </div>
-                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
                   <Link
                     to="projects"
                     className="cursor-pointer"
@@ -80,7 +80,7 @@ const Nav = () => {
                     {"Projects"}
                   </Link>
                 </div>
-                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
                   <Link
                     to="about"
                     className="cursor-pointer"
@@ -90,7 +90,7 @@ const Nav = () => {
                     {"About"}
                   </Link>
                 </div>
-                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
                   <Link
                     to="contact"
                     className="cursor-pointer"

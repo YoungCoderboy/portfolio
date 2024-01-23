@@ -1,15 +1,14 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/img/header-img.svg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
-import Design from "./Design";
 
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(400);
   const [index, setIndex] = useState(1);
   const toRotate = [
     "Web Developer",
@@ -17,7 +16,7 @@ const Home = () => {
     "Problem Solver",
     "Cyber Expert",
   ];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -39,7 +38,7 @@ const Home = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
+      setDelta((prevDelta) => prevDelta / 1.5);
     }
 
     if (!isDeleting && updatedText === fullText) {
