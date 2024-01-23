@@ -36,7 +36,6 @@ export default function App() {
           <Portfolio />
           <Experience />
           <Contact />
-          <Loader />
           <Design />
         </div>
       )}

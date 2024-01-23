@@ -2,8 +2,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-screen bg-black p-4 text-white">
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+    <div
+      name="contact"
+      className="w-full h-screen p-20 bg-black p-4 pt-28 text-white"
+    >
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full pt-28">
         <div className="pb-8">
           <p className="text-4xl font-game inline border-b-4 border-gray-500">
             Contact
